@@ -1,0 +1,9 @@
+{
+  "name": "yellowpage-ai",
+  "description": "AI가 내 북마크를 자동으로 카테고리 정리합니다.",
+  "version": "0.0.1",
+  "manifest_version": 3,
+  "action": {
+    "default_popup": "index.html"
+  }
+}
