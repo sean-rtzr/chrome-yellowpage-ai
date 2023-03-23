@@ -1,23 +1,16 @@
 <template>
   <v-app>
     <v-main>
-      <HelloWorld/>
+      <home />
     </v-main>
   </v-app>
 </template>
 
-<script>
-import HelloWorld from './components/HelloWorld.vue'
+<script setup>
+import Home from "@/pages/home.vue";
 
-export default {
-  name: 'App',
-
-  components: {
-    HelloWorld,
-  },
-
-  data: () => ({
-    //
-  }),
-}
 </script>
+
+<style lang="scss" scoped>
+
+</style>
